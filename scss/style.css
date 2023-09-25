@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+* header {
+  background-color: #0A0A23;
+  padding: 10px 0px;
+}
+* header .container {
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+* header .container .header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+* header .container .header-container .header-container-box {
+  margin: 0px 50px;
+}
+* header .container .header-container .header-container-box img {
+  width: 200px;
+  height: 50px;
+}
+* header .container .header-container .header-container-search {
+  background-color: #3B3B4F;
+  color: #AFAFB7;
+  padding: 7px 110px 7px 7px;
+}
+* header .container .header-container .header-container-search input {
+  background-color: #3B3B4F;
+  border: none;
+  outline: none;
+  color: #AFAFB7;
+  font-size: 15px;
+  font-weight: 700;
+}
+* header .container .header-container .header-container-box .btn-1 {
+  text-decoration: none;
+  padding: 30px;
+  margin-right: 10px;
+  color: #FFFFE3;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-style: bold;
+}
+* header .container .header-container .header-container-box .btn-1:hover {
+  background-color: #ffffe3;
+  color: #0A0A23;
+}
+* header .container .header-container .header-container-box .btn-2 {
+  background-color: #FEBD40;
+  text-decoration: none;
+  color: #0A0A23;
+  padding: 20px 40px;
+  outline: 3px solid #ec9e0d;
+  font-weight: 700;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+* header .container .header-container .header-container-box .btn-2:hover {
+  background-color: #eebc60;
+}
+
+@media screen and (max-width: 1000px) {
+  .header-container-search {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
